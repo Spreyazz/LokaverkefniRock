@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Lokaverkefni</title>
 
@@ -11,15 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="group">
-	    <input type="checkbox" id="menu-toggle">
-	    <label for="menu-toggle"><span>&#9776;</span></label>
-	        <ul> 
-	            <li><a href="index.html">Forsida</a></li>
-	            <li><a id="Verslun">Verslun</a></li> 
-	            <li><a id="Contact">Contact</a></li> 
-	        </ul>
-	    </header>
+    <?php require './includes/Header.php'; ?>
      <div class="rammi2-2 group">
         <div class="textiPlayfairborder" id="Metal">
             Metal
@@ -31,5 +23,6 @@
         <a href=".HTML"><img src="http://orig00.deviantart.net/4c66/f/2013/094/4/6/rammstein_header_by_stainless_heart-d60f286.png"></a>
         </div>
     </div>
+    <?php require './includes/SocialMediaButtons.php'; ?>
   </body>
 </html>
