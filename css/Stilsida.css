@@ -495,4 +495,35 @@ textarea {
   font-size: 1.2em;
   text-align: center; }
 
+@media screen and (min-width: 37.5em) {
+  .row {
+    display: flex;
+    flex-flow: row; }
+
+  .I-I {
+    flex: 1 1 0; }
+
+  .II-I {
+    flex: 2 2 1.4em; }
+
+  .III-I {
+    flex: 3 3 2.1em; }
+
+  .IV-I {
+    flex: 4 4 2.7em; }
+
+  .mobile {
+    display: none; } }
+.col {
+  display: flex;
+  flex-flow: column;
+  /* Layout */
+  border: 1px solid blue;
+  border-width: 0 1px 1px 0; }
+
+/* mobile = 0 to 37.5em */
+.row {
+  display: flex;
+  flex-flow: column; }
+
 /*# sourceMappingURL=Stilsida.css.map */
