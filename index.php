@@ -46,6 +46,23 @@
             <a href=".HTML"><img src="./Myndir/the-who.png"></a>
         </div>
     </div>
+        <div class="rammi2-2 group">
+        <div class="textiPlayfairborder" id="Metal">
+            Rock
+        </div>
+        <div class="rammi1-2">
+        <a href=".HTML"><img src="./Myndir/azdc.png"></a>
+        </div>
+        <div class="rammi1-2">
+        <a href=".HTML"><img src="./Myndir/genesis.png"></a>
+        </div>
+        <div class="rammi1-2">
+            <a href=".HTML"><img src="./Myndir/rhcp.png"></a>
+        </div>
+        <div class="rammi1-2">
+            <a href=".HTML"><img src="./Myndir/kiss.png"></a>
+        </div>
+    </div>
     <?php require './includes/SocialMediaButtons.php'; ?>
   </body>
 </html>

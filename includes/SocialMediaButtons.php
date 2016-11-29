@@ -4,7 +4,7 @@
                 <span class="icon-facebook"></span>
         </div>
     </a> 
-    <a href="https://github.com/Spreyazz" title="Github">
+    <a href="https://github.com/Spreyazz/LokaverkefniRock" title="Github">
         <div class="github"> 
                 <span class="icon-github"> </span>
         </div>
