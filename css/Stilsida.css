@@ -498,14 +498,6 @@ textarea {
   flex-flow: column; }
 
 @media screen and (min-width: 37.5em) {
-  .row div {
-    border: 1px solid white;
-    border-width: 0 1px 1px 0;
-    background: tomato;
-    color: white;
-    text-align: center;
-    padding: .3em; }
-
   .row {
     display: flex;
     flex-flow: row; }
