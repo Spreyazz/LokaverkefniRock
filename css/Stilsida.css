@@ -492,23 +492,6 @@ textarea {
   text-align: center;
   padding: .3em; }
 
-.Flexbox_Menu {
-  /*flex-grow: 1;
-  flex-shrink: 1;
-  flex-basic: 0;
-  border: 1px solid black;
-  border-width: 0 1px 1px 0;
-  padding: .3em;
-  background-color: red;
-  font-size: 1.2em;
-  text-align: center;*/
-  border: 1px solid white;
-  border-width: 0 1px 1px 0;
-  background: tomato;
-  color: white;
-  text-align: center;
-  padding: .3em; }
-
 /* mobile = 0 to 37.5em */
 .row {
   display: flex;
