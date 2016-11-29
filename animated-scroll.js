@@ -1,14 +1,24 @@
 $(document).ready(function(){
 
 	/* insert element to click and element to scroll to */
-	$('#Verslun').click(function (){
+	$('#Metal').click(function (){
                 
-           scrollToElement('#Verslun1');	               
+           scrollToElement('#Metal1');	               
     });
-   	$('#Contact').click(function (){
+   	$('#ClassicRock').click(function (){
                 
-    	   scrollToElement('#Contact1');	               
+    	   scrollToElement('#ClassicRock1');	               
     });
+       	$('#Rock').click(function (){
+                
+    	   scrollToElement('#Rock1');	               
+    });
+    
+    //muna að afblocka þegar indi myndir eru komnar inn
+       /*	$('#Indi').click(function (){
+                
+    	   scrollToElement('#Indi1');	               
+    });*/
 
 });
 

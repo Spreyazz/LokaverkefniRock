@@ -13,13 +13,13 @@
 <body>
     <?php require './includes/Header.php'; ?>
     	<section class="row">
-		<div class="I-I">Metal</div>
-		<div class="I-I">Classic Rock</div>
-		<div class="I-I">Rock</div>
-		<div class="I-I">indi</div>
+		<div class="I-I" id="Metal">Metal</div>
+		<div class="I-I" id="ClassicRock">Classic Rock</div>
+		<div class="I-I" id="Rock">Rock</div>
+		<div class="I-I" id="Indi">indi</div>
 	   </section>
      <div class="rammi2-2 group">
-        <div class="textiPlayfairborder" id="Metal">
+        <div class="textiPlayfairborder" id="Metal1">
             Metal
         </div>
         <div class="rammi1-2">
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="rammi2-2 group">
-        <div class="textiPlayfairborder" id="Metal">
+        <div class="textiPlayfairborder" id="ClassicRock1">
             Classic Rock
         </div>
         <div class="rammi1-2">
@@ -53,7 +53,7 @@
         </div>
     </div>
         <div class="rammi2-2 group">
-        <div class="textiPlayfairborder" id="Metal">
+        <div class="textiPlayfairborder" id="Rock1">
             Rock
         </div>
         <div class="rammi1-2">
@@ -69,6 +69,7 @@
             <a href=".HTML"><img src="./Myndir/kiss.png"></a>
         </div>
     </div>
+    <!--Milkey Change Svavar Knútur -->
     <?php require './includes/SocialMediaButtons.php'; ?>
   </body>
 </html>
