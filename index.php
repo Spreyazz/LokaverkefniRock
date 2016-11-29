@@ -12,6 +12,12 @@
 </head>
 <body>
     <?php require './includes/Header.php'; ?>
+    	<section class="row">
+		<div class="I-I">Metal</div>
+		<div class="I-I">Classic Rock</div>
+		<div class="I-I">Rock</div>
+		<div class="I-I">indi</div>
+	   </section>
      <div class="rammi2-2 group">
         <div class="textiPlayfairborder" id="Metal">
             Metal
