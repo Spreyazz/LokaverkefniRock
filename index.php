@@ -17,10 +17,33 @@
             Metal
         </div>
         <div class="rammi1-2">
-        <a href=".HTML"><img src="http://orig09.deviantart.net/2dcd/f/2009/208/f/7/metallica_i_by_henrikack.jpg"></a>
+        <a href=".HTML"><img src="./Myndir/rammstein.png"></a>
         </div>
         <div class="rammi1-2">
-        <a href=".HTML"><img src="http://orig00.deviantart.net/4c66/f/2013/094/4/6/rammstein_header_by_stainless_heart-d60f286.png"></a>
+        <a href=".HTML"><img src="./Myndir/pantera.png"></a>
+        </div>
+        <div class="rammi1-2">
+            <a href=".HTML"><img src="./Myndir/Metallica.png"></a>
+        </div>
+        <div class="rammi1-2">
+            <a href=".HTML"><img src="./Myndir/Skillet.png"></a>
+        </div>
+    </div>
+    <div class="rammi2-2 group">
+        <div class="textiPlayfairborder" id="Metal">
+            Classic Rock
+        </div>
+        <div class="rammi1-2">
+        <a href=".HTML"><img src="./Myndir/Deep-Purple.png"></a>
+        </div>
+        <div class="rammi1-2">
+        <a href=".HTML"><img src="./Myndir/JimiHendrix.png"></a>
+        </div>
+        <div class="rammi1-2">
+            <a href=".HTML"><img src="./Myndir/Pink-Floyd.png"></a>
+        </div>
+        <div class="rammi1-2">
+            <a href=".HTML"><img src="./Myndir/the-who.png"></a>
         </div>
     </div>
     <?php require './includes/SocialMediaButtons.php'; ?>
