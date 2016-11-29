@@ -9,10 +9,10 @@
  <?php require './includes/Header.php'; ?>
   <h2>Flex 4 dálka röð</h2>
 	<section class="row">
-		<div class="I-I Flexbox_Menu">Metal</div>
-		<div class="I-I Flexbox_Menu">Rock</div>
-		<div class="I-I Flexbox_Menu">Classic</div>
-		<div class="I-I Flexbox_Menu">indi</div>
+		<div class="I-I">Metal</div>
+		<div class="I-I">Rock</div>
+		<div class="I-I">Classic</div>
+		<div class="I-I">indi</div>
 	</section>
 <body>
   <?php require './includes/SocialMediaButtons.php'; ?>
