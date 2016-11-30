@@ -13,10 +13,13 @@
 <body>
     <?php require './includes/Header.php'; ?>
     	<section class="row">
-            <a class="I-I" id="Metal">Metal</a>
-            <a class="I-I" id="ClassicRock">Classic Rock</a>
-            <a class="I-I" id="Rock">Rock</a>
-            <a class="I-I" id="Indi">indi</a>
+        <label for="menu-toggle"><span>&#9776;</span></label>
+            <ul>
+                <a class="I-I" id="Metal">Metal</a>
+                <a class="I-I" id="ClassicRock">Classic Rock</a>
+                <a class="I-I" id="Rock">Rock</a>
+                <a class="I-I" id="Indi">indi</a>
+            </ul>
 	   </section>
      <div class="rammi2-2 group">
         <div class="textiPlayfairborder" id="Metal1">

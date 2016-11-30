@@ -113,6 +113,52 @@ header ul {
   transition: all 800ms;
   cursor: pointer; }
 
+.row a {
+  text-decoration: none;
+  display: inline-block; }
+
+.row a:hover {
+  border: 1px solid Black;
+  border-width: 0 1px 1px 0;
+  background: red;
+  color: #00087A;
+  text-align: center;
+  padding: .3em; }
+
+/* mobile = 0 to 37.5em */
+.row {
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  width: 100vw; }
+
+.row ul {
+  max-height: 0;
+  overflow: hidden;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all 800ms;
+  cursor: pointer; }
+
+.row input:checked ~ ul {
+  max-height: 600px; }
+
+.row label {
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  /*color: black;*/
+  background-color: #00087A;
+  color: #00087A;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 20px; }
+
+.row label:hover {
+  color: white; }
+
 /*
 	================================
 		myndir fyrir 48em
@@ -487,31 +533,32 @@ textarea {
 	Flexbox
 	================================
 */
-.row a {
-  border: 1px solid Black;
-  border-width: 0 1px 1px 0;
-  background: #00087A;
-  color: red;
-  text-align: center;
-  padding: .3em;
-  cursor: pointer;
-  display: block; }
-
+/*.row a {
+    border:1px solid Black;  
+    border-width: 0 1px 1px 0;
+    background: #00087A;
+    color: red;
+    text-align: center;
+    padding: .3em;
+    cursor: pointer;
+    display: block;
+    
+}
 .row a:hover {
-  border: 1px solid Black;
-  border-width: 0 1px 1px 0;
-  background: red;
-  color: #00087A;
-  text-align: center;
-  padding: .3em; }
-
+    border:1px solid Black;  
+    border-width: 0 1px 1px 0;
+    background: red;
+    color: #00087A;
+    text-align: center;
+    padding: .3em;  
+}
 /* mobile = 0 to 37.5em */
-.row {
+/*.row {
   display: flex;
   flex-flow: column;
   position: fixed;
-  width: 100vw; }
-
+    width: 100vw;
+}*/
 @media screen and (min-width: 37.5em) {
   .row {
     display: flex;
