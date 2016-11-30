@@ -13,10 +13,10 @@
 <body>
     <?php require './includes/Header.php'; ?>
     	<section class="row">
-            <div class="I-I"><a id="Metal">Metal</a></div>
-            <div class="I-I"><a id="ClassicRock">Classic Rock</a></div>
-            <div class="I-I"><a id="Rock">Rock</a></div>
-            <div class="I-I"><a id="Indi">indi</a></div>
+            <a class="I-I" id="Metal">Metal</a>
+            <a class="I-I" id="ClassicRock">Classic Rock</a>
+            <a class="I-I" id="Rock">Rock</a>
+            <a class="I-I" id="Indi">indi</a>
 	   </section>
      <div class="rammi2-2 group">
         <div class="textiPlayfairborder" id="Metal1">
@@ -71,5 +71,8 @@
     </div>
     <!--Milkey Change Svavar Knútur -->
     <?php require './includes/SocialMediaButtons.php'; ?>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="animated-scroll.js"></script>
   </body>
+    
 </html>
