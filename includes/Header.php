@@ -2,8 +2,9 @@
 	    <input type="checkbox" id="menu-toggle">
 	    <label for="menu-toggle"><span>&#9776;</span></label>
 	        <ul> 
-	            <li><a href="index.php">Forsida</a></li>
-	            <li><a href="Headertest.php">test</a></li> 
-	            <li><a id="Contact">Contact</a></li> 
+	            <li><a id="Metal">Metal</a></li>
+	            <li><a id="ClassicRock">Classic Rock</a></li> 
+	            <li><a id="Rock">Rock</a></li> 
+                <li><a id="Indi">Indi</a></li>
 	        </ul>
 	    </header>
