@@ -18,7 +18,7 @@
             <a class="I-I" id="Rock">Rock</a>
             <a class="I-I" id="Indi">indi</a>
 	   </section> -->
-     <div class="rammi2-2 group">
+     <div class="rammi2-2top group">
         <div class="textiPlayfairborder" id="Metal1">
             Metal
         </div>
@@ -26,13 +26,13 @@
         <a href="Metalundirsida.php?id=rammstein"><img src="./Myndir/rammstein.png"></a>
         </div>
         <div class="rammi1-2">
-        <a href="Metalundirsida.php?id=panter"><img src="./Myndir/pantera.png"></a>
+        <a href="Metalundirsida.php?id=pantera"><img src="./Myndir/pantera.png"></a>
         </div>
         <div class="rammi1-2">
-            <a href="Metalundirsida.php?id=Metallica"><img src="./Myndir/Metallica.png"></a>
+            <a href="Metalundirsida.php?id=metallica"><img src="./Myndir/Metallica.png"></a>
         </div>
         <div class="rammi1-2">
-            <a href="Metalundirsida.php?id=Skillet"><img src="./Myndir/Skillet.png"></a>
+            <a href="Metalundirsida.php?id=skillet"><img src="./Myndir/Skillet.png"></a>
         </div>
     </div>
     <div class="rammi2-2 group">

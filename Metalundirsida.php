@@ -1,23 +1,23 @@
 <?php 
 
- if($_GET["id"] == )
+ if($_GET["id"] == "rammstein")
 
- $img = "";
+ $img = "./Myndir/Rammstein.png";
  $LysingAMynd = "";
 
- if($_GET["id"] == )
+ if($_GET["id"] == "pantera")
 {
- $img = "";
+ $img = "./Myndir/Pantera.png";
  $LysingAMynd = "";
 }
- if($_GET["id"] == )
+ if($_GET["id"] == "metallica")
 {
- $img = "";
+ $img = "./Myndir/Metallica.png";
  $LysingAMynd = "";
 }
- if($_GET["id"] == )
+ if($_GET["id"] == "skillet")
  {
-    $img = "";
+    $img = "./Myndir/Skillet.png";
     $LysingAMynd = "";
 }
 ?>
@@ -32,9 +32,9 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
-<img src="Myndir/Skillet.png">
 <body>
     <?php require './includes/Header2.php'; ?>
+    <img src="<?= ($img); ?>">
     <?php require './includes/SocialMediaButtons.php'; ?>
   <script src=""></script>
 </body>

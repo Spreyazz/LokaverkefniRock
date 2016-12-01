@@ -134,6 +134,14 @@ header ul {
   display: block;
   margin: 0 auto; }
 
+.rammi2-2top {
+  max-width: 64em;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  padding-top: 3em; }
+
 .rammi1-1 {
   width: 100%;
   box-sizing: border-box;
