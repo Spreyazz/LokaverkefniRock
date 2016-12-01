@@ -34,7 +34,12 @@
 </head>
 <body>
     <?php require './includes/Header2.php'; ?>
-    <img src="<?= ($img); ?>">
+    <div class="rammiundirsida">
+        <img src="<?= ($img); ?>">
+    </div>
+    <div class="rammiundirsida">
+        <img src="<?= ($img); ?>">
+    </div>
     <?php require './includes/SocialMediaButtons.php'; ?>
   <script src=""></script>
 </body>
