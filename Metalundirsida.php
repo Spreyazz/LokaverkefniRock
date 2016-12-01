@@ -1,3 +1,26 @@
+<?php 
+
+ if($_GET["id"] == )
+
+ $img = "";
+ $LysingAMynd = "";
+
+ if($_GET["id"] == )
+{
+ $img = "";
+ $LysingAMynd = "";
+}
+ if($_GET["id"] == )
+{
+ $img = "";
+ $LysingAMynd = "";
+}
+ if($_GET["id"] == )
+ {
+    $img = "";
+    $LysingAMynd = "";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
