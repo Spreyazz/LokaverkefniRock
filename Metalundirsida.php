@@ -3,22 +3,30 @@
  if($_GET["id"] == "rammstein")
 
  $img = "./Myndir/Rammstein.png";
- $LysingAMynd = "";
+ $LysingAhljomsveitinni = "Rammstein <br>
+meðlimar:<br>
+Till Lindemann <br>
+Richard Z. Kruspe <br>
+Paul H. Landers <br>
+Oliver Riedel <br>
+Christian Lorenz <br>
+Christoph Schneider<br>
+";
 
  if($_GET["id"] == "pantera")
 {
  $img = "./Myndir/Pantera.png";
- $LysingAMynd = "";
+ $LysingAhljomsveitinni = "";
 }
  if($_GET["id"] == "metallica")
 {
  $img = "./Myndir/Metallica.png";
- $LysingAMynd = "";
+ $LysingAhljomsveitinni = "";
 }
  if($_GET["id"] == "skillet")
  {
     $img = "./Myndir/Skillet.png";
-    $LysingAMynd = "";
+    $LysingAhljomsveitinni = "";
 }
 ?>
 <!DOCTYPE html>
@@ -34,11 +42,15 @@
 </head>
 <body>
     <?php require './includes/Header2.php'; ?>
-    <div class="rammiundirsida">
-        <img src="<?= ($img); ?>">
-    </div>
-    <div class="rammiundirsida">
-        <img src="<?= ($img); ?>">
+    <div class="rammi2-2top">
+        <div class="rammiundirsida">
+            <img src="<?= ($img); ?>">
+        </div>
+        <div class="rammiundirsida">
+            <?php
+            echo $LysingAhljomsveitinni;
+            ?>
+        </div>
     </div>
     <?php require './includes/SocialMediaButtons.php'; ?>
   <script src=""></script>
