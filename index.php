@@ -23,16 +23,16 @@
             Metal
         </div>
         <div class="rammi1-2">
-        <a href=".HTML"><img src="./Myndir/rammstein.png"></a>
+        <a href="Metalundirsida.php?id=rammstein"><img src="./Myndir/rammstein.png"></a>
         </div>
         <div class="rammi1-2">
-        <a href=".HTML"><img src="./Myndir/pantera.png"></a>
+        <a href="Metalundirsida.php?id=panter"><img src="./Myndir/pantera.png"></a>
         </div>
         <div class="rammi1-2">
-            <a href=".HTML"><img src="./Myndir/Metallica.png"></a>
+            <a href="Metalundirsida.php?id=Metallica"><img src="./Myndir/Metallica.png"></a>
         </div>
         <div class="rammi1-2">
-            <a href=".HTML"><img src="./Myndir/Skillet.png"></a>
+            <a href="Metalundirsida.php?id=Skillet"><img src="./Myndir/Skillet.png"></a>
         </div>
     </div>
     <div class="rammi2-2 group">
