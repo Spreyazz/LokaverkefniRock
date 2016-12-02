@@ -43,13 +43,13 @@
         <a href="undirsida.php?id=DeepPurple"><img src="./Myndir/Deep-Purple.png"></a>
         </div>
         <div class="rammi1-2">
-        <a href="undirsida.php?JimiHendrix"><img src="./Myndir/JimiHendrix.png"></a>
+        <a href="undirsida.php?id=JimiHendrix"><img src="./Myndir/JimiHendrix.png"></a>
         </div>
         <div class="rammi1-2">
-            <a href="undirsida.php?PinkFloyd"><img src="./Myndir/Pink-Floyd.png"></a>
+            <a href="undirsida.php?id=PinkFloyd"><img src="./Myndir/Pink-Floyd.png"></a>
         </div>
         <div class="rammi1-2">
-            <a href="undirsida.php?TheWho"><img src="./Myndir/the-who.png"></a>
+            <a href="undirsida.php?id=TheWho"><img src="./Myndir/the-who.png"></a>
         </div>
     </div>
         <div class="rammi2-2 group">
@@ -57,16 +57,16 @@
             Rock
         </div>
         <div class="rammi1-2">
-        <a href="undirsida.php?AZDC"><img src="./Myndir/azdc.png"></a>
+        <a href="undirsida.php?id=AZDC"><img src="./Myndir/azdc.png"></a>
         </div>
         <div class="rammi1-2">
-        <a href="undirsida.php?Genesis"><img src="./Myndir/genesis.png"></a>
+        <a href="undirsida.php?id=Genesis"><img src="./Myndir/genesis.png"></a>
         </div>
         <div class="rammi1-2">
-            <a href="undirsida.php?RHCP"><img src="./Myndir/rhcp.png"></a>
+            <a href="undirsida.php?id=RHCP"><img src="./Myndir/rhcp.png"></a>
         </div>
         <div class="rammi1-2">
-            <a href="undirsida.php?Kiss"><img src="./Myndir/kiss.png"></a>
+            <a href="undirsida.php?id=Kiss"><img src="./Myndir/kiss.png"></a>
         </div>
     </div>
     <div class="rammi2-2 group">
@@ -74,10 +74,10 @@
             Indi
         </div>
             <div class="rammi1-2">
-                <a href="undirsida.php?Milkey"><img src="./Myndir/Milkey.png"></a>
+                <a href="undirsida.php?id=Milkey"><img src="./Myndir/Milkey.png"></a>
             </div>
             <div class="rammi1-2">
-                <a href="undirsida.php?SvavarKnutur"><img src="./Myndir/svavar-Knutur.png"></a>
+                <a href="undirsida.php?id=SvavarKnutur"><img src="./Myndir/svavar-Knutur.png"></a>
             </div>
 
     </div>

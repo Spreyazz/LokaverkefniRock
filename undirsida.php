@@ -41,56 +41,70 @@ if($_GET["id"] == "DeepPurple")
 {
     $img = "./Myndir/Deep-Purple.png";
     $LysingAhljomsveitinni = "";
-    $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
+    $youtubelinkur = "https://www.youtube.com/embed/RKrNdxiBW3Y";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "JimiHendrix")
 {
     $img = "./Myndir/JimiHendrix.png";
     $LysingAhljomsveitinni = "";
-    $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
+    $youtubelinkur = "https://www.youtube.com/embed/TLV4_xaYynY";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "PinkFloyd")
 {
     $img = "./Myndir/Pink-Floyd.png";
     $LysingAhljomsveitinni = "";
-    $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
+    $youtubelinkur = "https://www.youtube.com/embed/R49d4f5sEs4";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "TheWho")
 {
     $img = "./Myndir/the-who.png";
     $LysingAhljomsveitinni = "";
-    $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
+    $youtubelinkur = "https://www.youtube.com/embed/5QaVzv5aR6U";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "AZDC")
 {
     $img = "./Myndir/azdc.png";
     $LysingAhljomsveitinni = "";
-    $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
+    $youtubelinkur = "https://www.youtube.com/embed/v2AC41dglnM";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "Genesis")
 {
     $img = "./Myndir/genesis.png";
     $LysingAhljomsveitinni = "";
-    $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
+    $youtubelinkur = "https://www.youtube.com/embed/Ccs2rt0oSzQ";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "RHCP")
 {
     $img = "./Myndir/rhcp.png";
     $LysingAhljomsveitinni = "";
-    $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
+    $youtubelinkur = "https://www.youtube.com/embed/Sb5aq5HcS1A";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "Kiss")
 {
     $img = "./Myndir/Kiss.png";
     $LysingAhljomsveitinni = "";
-    $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
+    $youtubelinkur = "https://www.youtube.com/embed/iZq3i94mSsQ";
+    $bakgrunnur = "grar";
+}
+if($_GET["id"] == "Milkey")
+{
+    $img = "./Myndir/Milkey.png";
+    $LysingAhljomsveitinni = "";
+    $youtubelinkur = "https://www.youtube.com/embed/qlGQoxzdwP4";
+    $bakgrunnur = "grar";
+}
+if($_GET["id"] == "SvavarKnutur")
+{
+    $img = "./Myndir/svavar-Knutur.png";
+    $LysingAhljomsveitinni = "";
+    $youtubelinkur = "https://www.youtube.com/embed/fvmalKyJ6NM";
     $bakgrunnur = "grar";
 }
 ?>
