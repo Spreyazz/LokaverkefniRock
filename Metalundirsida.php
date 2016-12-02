@@ -5,12 +5,13 @@
  $img = "./Myndir/Rammstein.png";
  $LysingAhljomsveitinni = "Rammstein <br>
 meðlimar:<br>
-Till Lindemann <br>
-Richard Z. Kruspe <br>
-Paul H. Landers <br>
-Oliver Riedel <br>
+Frá vinstri <br>
 Christian Lorenz <br>
+Oliver Riedel <br>
+Till Lindemann <br>
+Paul H. Landers <br>
 Christoph Schneider<br>
+Richard Z. Kruspe <br>
 ";
  $youtubelinkur = "https://www.youtube.com/embed/uO59tfQ2TbA";
  }
@@ -44,10 +45,10 @@ Christoph Schneider<br>
 <body class="liturbody2">
     <?php require './includes/Header2.php'; ?>
     <div class="rammi2-2top">
-        <div class="rammiundirsida">
+        <div class="rammiundirsida1">
             <img src="<?= ($img); ?>">
         </div>
-        <div class="rammiundirsida textiPlayfair">
+        <div class="rammiundirsida2 textiPlayfair">
             <?php
             echo $LysingAhljomsveitinni;
             ?>

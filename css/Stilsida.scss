@@ -152,10 +152,18 @@ header ul {
     margin: 0 auto;
     padding-top: 3em;
 }
-.rammiundirsida {
-	width: 50%;
+.rammiundirsida1 {
+	width: 70%;
 	padding: 0;
 	float: left;
+	box-sizing: border-box;
+	display: block;
+    margin: 0;
+}
+.rammiundirsida2 {
+	width: 30%;
+	padding: 0;
+	float: right;
 	box-sizing: border-box;
 	display: block;
     margin: 0;
@@ -232,23 +240,22 @@ iframe {
     cursor: pointer;
     display: block;
     
-}
-.row a:hover {
-    border:1px solid Black;  
-    border-width: 0 1px 1px 0;
-    background: red;
-    color: #00087A;
-    text-align: center;
-    padding: .3em;  
-}
-/* mobile = 0 to 37.5em */
-.row {
-  display: flex;
-  flex-flow: column;
-  position: fixed;
-    width: 100vw;
-}
-
+    }
+    .row a:hover {
+        border:1px solid Black;  
+        border-width: 0 1px 1px 0;
+        background: red;
+        color: #00087A;
+        text-align: center;
+        padding: .3em;  
+    }
+    /* mobile = 0 to 37.5em */
+    .row {
+      display: flex;
+      flex-flow: column;
+      position: fixed;
+        width: 100vw;
+    }
 }
 /*
   ========================================
@@ -389,9 +396,11 @@ iframe {
   display: none; }
 
 @media screen and (min-width: 55em) {
-  /*  ========================================
+/*  
+    ========================================
     Social buttons
-    ========================================*/
+    ========================================
+*/
   .sMedia {
     display: block;
     position: fixed;
