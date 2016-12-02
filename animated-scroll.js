@@ -14,11 +14,10 @@ $(document).ready(function(){
     	   scrollToElement('#Rock1');	               
     });
     
-    //muna að afblocka þegar indi myndir eru komnar inn
-       /*	$('#Indi').click(function (){
+    $('#Indi').click(function (){
                 
     	   scrollToElement('#Indi1');	               
-    });*/
+    });
 
 });
 
