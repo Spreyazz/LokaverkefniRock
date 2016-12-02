@@ -65,6 +65,15 @@ body {
 	font-size: 20px;
 	/*background-color: blue;*/
 }
+.svartur {
+    background-color: black;
+}
+.blar {
+    background-color: #0F0F40;
+}
+.grar {
+    background-color: #62657A;
+}
 /*
 	================================
 			HEADER OG FOOTER
@@ -217,7 +226,7 @@ iframe {
     font-size: 18px;
 	}
   	header li a:hover {
-      background: yellow;
+      background: black;
       box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
   	}
  	header label{

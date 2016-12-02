@@ -2,34 +2,40 @@
 
  if($_GET["id"] == "rammstein")
  {
- $img = "./Myndir/Rammstein.png";
- $LysingAhljomsveitinni = "Rammstein <br>
-meðlimar:<br>
-Frá vinstri <br>
-Christian Lorenz <br>
-Oliver Riedel <br>
-Till Lindemann <br>
-Paul H. Landers <br>
-Christoph Schneider<br>
-Richard Z. Kruspe <br>
-";
- $youtubelinkur = "https://www.youtube.com/embed/StZcUAPRRac";
+     $img = "./Myndir/Rammstein.png";
+     $LysingAhljomsveitinni = "Rammstein <br>
+    meðlimar:<br>
+    Frá vinstri <br>
+    Christian Lorenz <br>
+    Oliver Riedel <br>
+    Till Lindemann <br>
+    Paul H. Landers <br>
+    Christoph Schneider<br>
+    Richard Z. Kruspe <br>
+    ";
+     $youtubelinkur = "https://www.youtube.com/embed/StZcUAPRRac";
+     $bakgrunnur = "rammstein";
  }
  if($_GET["id"] == "pantera")
 {
- $img = "./Myndir/Pantera.png";
- $LysingAhljomsveitinni = "";
- $youtubelinkur = "https://www.youtube.com/embed/StZcUAPRRac";
+     $img = "./Myndir/Pantera.png";
+     $LysingAhljomsveitinni = "";
+     $youtubelinkur = "https://www.youtube.com/embed/la1WfEr60yg";
+     $bakgrunnur = "svartur";
 }
  if($_GET["id"] == "metallica")
 {
- $img = "./Myndir/Metallica.png";
- $LysingAhljomsveitinni = "";
+     $img = "./Myndir/Metallica.png";
+     $LysingAhljomsveitinni = "";
+     $youtubelinkur = "https://www.youtube.com/embed/Tj75Arhq5ho";
+     $bakgrunnur = "blar";
 }
  if($_GET["id"] == "skillet")
  {
-    $img = "./Myndir/Skillet.png";
-    $LysingAhljomsveitinni = "";
+     $img = "./Myndir/Skillet.png";
+     $LysingAhljomsveitinni = "";
+     $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
+     $bakgrunnur = "grar";
 }
 ?>
 <!DOCTYPE html>
@@ -43,7 +49,7 @@ Richard Z. Kruspe <br>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
-<body class="rammstein">
+<body class="<?= ($bakgrunnur); ?>">
     <?php require './includes/Header2.php'; ?>
     <div class="rammi2-2top">
         <div class="rammiundirsida1">
