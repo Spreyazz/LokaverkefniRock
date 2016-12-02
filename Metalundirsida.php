@@ -13,12 +13,13 @@ Paul H. Landers <br>
 Christoph Schneider<br>
 Richard Z. Kruspe <br>
 ";
- $youtubelinkur = "https://www.youtube.com/embed/uO59tfQ2TbA";
+ $youtubelinkur = "https://www.youtube.com/embed/StZcUAPRRac";
  }
  if($_GET["id"] == "pantera")
 {
  $img = "./Myndir/Pantera.png";
  $LysingAhljomsveitinni = "";
+ $youtubelinkur = "https://www.youtube.com/embed/StZcUAPRRac";
 }
  if($_GET["id"] == "metallica")
 {
@@ -42,7 +43,7 @@ Richard Z. Kruspe <br>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
-<body class="liturbody2">
+<body class="rammstein">
     <?php require './includes/Header2.php'; ?>
     <div class="rammi2-2top">
         <div class="rammiundirsida1">

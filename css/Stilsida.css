@@ -40,6 +40,10 @@ body {
 .liturbody2 {
   background: linear-gradient(to top left, red, black); }
 
+.rammstein {
+  background-image: url(../Myndir/RammsteinBackground.png);
+  color: red; }
+
 .textiPlayfairborder {
   font-family: 'Playfair Display', serif;
   font-size: 40px;

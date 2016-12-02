@@ -69,6 +69,18 @@
             <a href=".HTML"><img src="./Myndir/kiss.png"></a>
         </div>
     </div>
+    <div class="rammi2-2 group">
+        <div class="textiPlayfairborder" id="Indi1">
+            Indi
+        </div>
+        <div class="rammi1-2">
+        <a href=".HTML"><img src="./Myndir/Milkey.png"></a>
+        </div>
+        <div class="rammi1-2">
+        <a href=".HTML"><img src="./Myndir/svavar-Knutur.png"></a>
+        </div>
+
+        </div>
     <!--Milkey Change Svavar Knútur -->
     <?php require './includes/SocialMediaButtons.php'; ?>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
