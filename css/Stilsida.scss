@@ -42,6 +42,7 @@ font-family: 'Playfair Display', serif;
 body {
   /*max-width: 60em; /*960px*/
   margin: 0 auto;
+    height: 100vw;
   /*border: green solid 5px;*/
 }
 .liturbody2 {
@@ -124,7 +125,7 @@ header ul {
 
 /*
 	================================
-		myndir fyrir 48em
+		      Rammar
 	================================
 */
 
@@ -159,6 +160,13 @@ header ul {
 	display: block;
     margin: 0;
 }
+iframe {
+    width: 750px;
+    height: 450px;
+    display: block;
+    float: none;
+    margin: auto;
+}
 /*
 	================================
 	Myndir
@@ -173,7 +181,7 @@ header ul {
 		Header og footer eftir 48em
 	================================
 */
-@media screen and (min-width: 80em) {
+@media screen and (min-width: 65em) {
 	header ul {
 		margin: 0;
 		padding: 0;
