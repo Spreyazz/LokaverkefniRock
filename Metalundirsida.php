@@ -1,7 +1,7 @@
 <?php 
 
  if($_GET["id"] == "rammstein")
-
+ {
  $img = "./Myndir/Rammstein.png";
  $LysingAhljomsveitinni = "Rammstein <br>
 meðlimar:<br>
@@ -12,7 +12,8 @@ Oliver Riedel <br>
 Christian Lorenz <br>
 Christoph Schneider<br>
 ";
-
+ $youtubelinkur = "https://www.youtube.com/embed/uO59tfQ2TbA";
+ }
  if($_GET["id"] == "pantera")
 {
  $img = "./Myndir/Pantera.png";
@@ -52,8 +53,10 @@ Christoph Schneider<br>
             ?>
         </div>
     </div>
-    <iframe src="https://www.youtube.com/embed/uO59tfQ2TbA">
-    </iframe>
+    <div class="rammi2-2">
+        <iframe src="<?= ($youtubelinkur); ?>" allowfullscreen frameborder="0">
+        </iframe>
+    </div>
     <?php require './includes/SocialMediaButtons.php'; ?>
   <script src=""></script>
 </body>
