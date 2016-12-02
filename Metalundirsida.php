@@ -46,7 +46,7 @@ Christoph Schneider<br>
         <div class="rammiundirsida">
             <img src="<?= ($img); ?>">
         </div>
-        <div class="rammiundirsida">
+        <div class="rammiundirsida textiPlayfair">
             <?php
             echo $LysingAhljomsveitinni;
             ?>

@@ -10,7 +10,7 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
-<body>
+<body class="liturbody2">
     <?php require './includes/Header.php'; ?>
 <!--     	<section class="row">
             <a class="I-I" id="Metal">Metal</a>
