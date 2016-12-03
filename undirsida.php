@@ -30,7 +30,7 @@
      Dimebag Darrell, <br>
      Rex Brown";
      $youtubelinkur = "https://www.youtube.com/embed/la1WfEr60yg";
-     $bakgrunnur = "svartur";
+     $bakgrunnur = "panteralitir";
 }
  if($_GET["id"] == "metallica")
 {
@@ -44,93 +44,115 @@
      Lars Ulrich, <br>
      Robert Trujillo";
      $youtubelinkur = "https://www.youtube.com/embed/Tj75Arhq5ho";
-     $bakgrunnur = "blar";
+     $bakgrunnur = "metallicalitir";
 }
  if($_GET["id"] == "skillet")
  {
      $img = "./Myndir/Skillet.png";
+     $img2 = "./Myndir/Skillet.jpg";
      $title = "Skillet";
-     $LysingAhljomsveitinni = "";
+     $LysingAhljomsveitinni = "Skillet <br>
+     frá vinstri: <br>
+     Korey Cooper, <br>
+     John Cooper, <br>
+     Jen Ledger, <br>
+     Seth Morrison";
      $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
      $bakgrunnur = "grar";
 }
 if($_GET["id"] == "DeepPurple")
 {
     $img = "./Myndir/Deep-Purple.png";
+    $img2 = "./Myndir/DeepPurplelive.png";
     $title = "Deep Purple";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Deep Purple <br>
+    Frá Vinstri: <br>
+    Steve Morse, <br>
+    Don Airey, <br>
+    Ian Gillan, <br>
+    Roger Glover, <br>
+    Ian Paice";
     $youtubelinkur = "https://www.youtube.com/embed/RKrNdxiBW3Y";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "JimiHendrix")
 {
     $img = "./Myndir/JimiHendrix.png";
+    $img2 = "";
     $title = "Jimi Hendrix";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/TLV4_xaYynY";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "PinkFloyd")
 {
     $img = "./Myndir/Pink-Floyd.png";
+    $img2 = "";
     $title = "Pink Floyd";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/R49d4f5sEs4";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "TheWho")
 {
     $img = "./Myndir/the-who.png";
+    $img2 = "";
     $title = "The Who";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/5QaVzv5aR6U";
-    $bakgrunnur = "grar";
+    $bakgrunnur = "metallicalitir";
 }
 if($_GET["id"] == "AZDC")
 {
     $img = "./Myndir/azdc.png";
+    $img2 = "";
     $title = "AZ DC";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/v2AC41dglnM";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "Genesis")
 {
     $img = "./Myndir/genesis.png";
+    $img2 = "";
     $title = "Genesis";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/Ccs2rt0oSzQ";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "RHCP")
 {
     $img = "./Myndir/rhcp.png";
+    $img2 = "";
     $title = "Red Hot Chili Peppers";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/Sb5aq5HcS1A";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "Kiss")
 {
     $img = "./Myndir/Kiss.png";
+    $img2 = "";
     $title = "Kiss";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/iZq3i94mSsQ";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "Milkey")
 {
     $img = "./Myndir/Milkey.png";
+    $img2 = "";
     $title = "Milkey";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/qlGQoxzdwP4";
     $bakgrunnur = "grar";
 }
 if($_GET["id"] == "SvavarKnutur")
 {
     $img = "./Myndir/svavar-Knutur.png";
+    $img2 = "";
     $title = "Svavar Knútur";
-    $LysingAhljomsveitinni = "";
+    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/fvmalKyJ6NM";
     $bakgrunnur = "grar";
 }
