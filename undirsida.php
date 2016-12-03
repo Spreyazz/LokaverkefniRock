@@ -2,7 +2,8 @@
 
  if($_GET["id"] == "rammstein")
  {
-     $img = "./Myndir/Rammstein.png";
+     $img = "./Myndir/Rammstein2.jpg";
+     $img2 = "./Myndir/Rammstein.png";
      $title = "Rammstein";
      $LysingAhljomsveitinni = "Rammstein <br>
     meðlimar:<br>
@@ -22,15 +23,26 @@
      $img = "./Myndir/Pantera.png";
      $title = "Pantera";
      $img2 = "./Myndir/Panterapromo.png";
-     $LysingAhljomsveitinni = "";
+     $LysingAhljomsveitinni = "Pantera <br>
+     Frá Vinstri: <br>
+     Phil Anselmo,<br>
+     Vinnie Paul, <br>
+     Dimebag Darrell, <br>
+     Rex Brown";
      $youtubelinkur = "https://www.youtube.com/embed/la1WfEr60yg";
      $bakgrunnur = "svartur";
 }
  if($_GET["id"] == "metallica")
 {
-     $img = "./Myndir/Metallica.png";
+     $img = "./Myndir/Metallica_wordmark.svg.png";
+     $img2 = "./Myndir/metallica-2016.jpg";
      $title = "Metallica";
-     $LysingAhljomsveitinni = "";
+     $LysingAhljomsveitinni = "Metallica <br>
+     Frá vinstri: <br>
+     Kirk Hammet, <br>
+     James Hetfield, <br>
+     Lars Ulrich, <br>
+     Robert Trujillo";
      $youtubelinkur = "https://www.youtube.com/embed/Tj75Arhq5ho";
      $bakgrunnur = "blar";
 }
@@ -137,21 +149,23 @@ if($_GET["id"] == "SvavarKnutur")
 <body class="<?= ($bakgrunnur); ?>">
     <?php require './includes/Header2.php'; ?>
     <div class="rammi2-2top">
-        <div class="rammiundirsida1">
             <img src="<?= ($img); ?>">
-        </div>
     </div>
     <div class="rammi2-2">
+        <iframe src="<?= ($youtubelinkur); ?>" allowfullscreen frameborder="0">
+        </iframe>
+    </div>
+    <div class="rammi2-2">
+        <div class="rammiundirsida1">
+            <img src="<?= ($img2); ?>">
+        </div>
         <div class="rammiundirsida2 textiPlayfair">
             <?php
             echo $LysingAhljomsveitinni;
             ?>
         </div>
     </div>
-    <div class="rammi2-2">
-        <iframe src="<?= ($youtubelinkur); ?>" allowfullscreen frameborder="0">
-        </iframe>
-    </div>
+    
     <?php require './includes/SocialMediaButtons.php'; ?>
   <script src=""></script>
 </body>
