@@ -127,7 +127,7 @@ if($_GET["id"] == "RHCP")
     $title = "Red Hot Chili Peppers";
     $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/Sb5aq5HcS1A";
-    $bakgrunnur = "grar";
+    $bakgrunnur = "rhcp";
 }
 if($_GET["id"] == "Kiss")
 {
