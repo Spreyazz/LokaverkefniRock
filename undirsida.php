@@ -91,7 +91,7 @@ if($_GET["id"] == "PinkFloyd")
     $title = "Pink Floyd";
     $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/R49d4f5sEs4";
-    $bakgrunnur = "grar";
+    $bakgrunnur = "panteralitir";
 }
 if($_GET["id"] == "TheWho")
 {
