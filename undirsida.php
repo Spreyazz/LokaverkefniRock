@@ -73,7 +73,7 @@ if($_GET["id"] == "DeepPurple")
     Roger Glover, <br>
     Ian Paice";
     $youtubelinkur = "https://www.youtube.com/embed/RKrNdxiBW3Y";
-    $bakgrunnur = "grar";
+    $bakgrunnur = "purplelitir";
 }
 if($_GET["id"] == "JimiHendrix")
 {
@@ -125,7 +125,7 @@ if($_GET["id"] == "RHCP")
     $img = "./Myndir/rhcp.png";
     $img2 = "";
     $title = "Red Hot Chili Peppers";
-    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
+    $LysingAhljomsveitinni = "Red Hot Chili Peppers Frá vinstri: Josh Klinghoffer, Flea, Anthony Kiedis, Chad Smith";
     $youtubelinkur = "https://www.youtube.com/embed/Sb5aq5HcS1A";
     $bakgrunnur = "rhcp";
 }
@@ -138,12 +138,13 @@ if($_GET["id"] == "Kiss")
     $youtubelinkur = "https://www.youtube.com/embed/iZq3i94mSsQ";
     $bakgrunnur = "kiss";
 }
-if($_GET["id"] == "Milkey")
+if($_GET["id"] == "Milky")
 {
-    $img = "./Myndir/Milkey.png";
+    $img = "./Myndir/Milky.png";
     $img2 = "";
     $title = "Milkey";
-    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
+    $LysingAhljomsveitinni = "Milky Chance
+    Frá vinstri: Philipp Dausch og Clemens Rehbein";
     $youtubelinkur = "https://www.youtube.com/embed/qlGQoxzdwP4";
     $bakgrunnur = "grar";
 }
@@ -152,7 +153,7 @@ if($_GET["id"] == "SvavarKnutur")
     $img = "./Myndir/svavar-Knutur.png";
     $img2 = "";
     $title = "Svavar Knútur";
-    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
+    $LysingAhljomsveitinni = "Svavar Knútur";
     $youtubelinkur = "https://www.youtube.com/embed/fvmalKyJ6NM";
     $bakgrunnur = "svavarlitir";
 }
@@ -173,11 +174,7 @@ if($_GET["id"] == "SvavarKnutur")
     <div class="rammi2-2top">
             <img src="<?= ($img); ?>">
     </div>
-    <div class="rammi2-2">
-        <iframe src="<?= ($youtubelinkur); ?>" allowfullscreen frameborder="0">
-        </iframe>
-    </div>
-    <div class="rammi2-2">
+     <div class="rammi2-2">
         <div class="rammiundirsida1">
             <img src="<?= ($img2); ?>">
         </div>
@@ -186,6 +183,10 @@ if($_GET["id"] == "SvavarKnutur")
             echo $LysingAhljomsveitinni;
             ?>
         </div>
+    </div>
+    <div class="rammi2-2">
+        <iframe src="<?= ($youtubelinkur); ?>" allowfullscreen frameborder="0">
+        </iframe>
     </div>
     
     <?php require './includes/SocialMediaButtons.php'; ?>

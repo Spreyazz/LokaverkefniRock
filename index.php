@@ -74,7 +74,7 @@
             Indi
         </div>
             <div class="rammi1-2">
-                <a href="undirsida.php?id=Milkey"><img src="./Myndir/Milkey.png"></a>
+                <a href="undirsida.php?id=Milky"><img src="./Myndir/Milky.png"></a>
             </div>
             <div class="rammi1-2">
                 <a href="undirsida.php?id=SvavarKnutur"><img src="./Myndir/svavar-Knutur.png"></a>
