@@ -80,7 +80,7 @@ if($_GET["id"] == "JimiHendrix")
     $img = "./Myndir/JimiHendrix.png";
     $img2 = "";
     $title = "Jimi Hendrix";
-    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
+    $LysingAhljomsveitinni = "Jimi Hendrix";
     $youtubelinkur = "https://www.youtube.com/embed/TLV4_xaYynY";
     $bakgrunnur = "grar";
 }
