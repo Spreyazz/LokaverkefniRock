@@ -109,7 +109,7 @@ if($_GET["id"] == "AZDC")
     $title = "AZ DC";
     $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/v2AC41dglnM";
-    $bakgrunnur = "grar";
+    $bakgrunnur = "panteralitir";
 }
 if($_GET["id"] == "Genesis")
 {
@@ -118,7 +118,7 @@ if($_GET["id"] == "Genesis")
     $title = "Genesis";
     $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/Ccs2rt0oSzQ";
-    $bakgrunnur = "grar";
+    $bakgrunnur = "genesislitir";
 }
 if($_GET["id"] == "RHCP")
 {
@@ -154,7 +154,7 @@ if($_GET["id"] == "SvavarKnutur")
     $title = "Svavar Knútur";
     $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/fvmalKyJ6NM";
-    $bakgrunnur = "grar";
+    $bakgrunnur = "svavarlitir";
 }
 ?>
 <!DOCTYPE html>
