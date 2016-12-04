@@ -52,6 +52,14 @@ body {
   color: white;
   background-color: #0F0F40; }
 
+.kiss {
+  background-color: white;
+  color: black; }
+
+.jimi {
+  color: white;
+  background-color: #1B1C0D; }
+
 .textiPlayfairborder {
   font-family: 'Playfair Display', serif;
   font-size: 40px;

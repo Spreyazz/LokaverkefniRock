@@ -136,7 +136,7 @@ if($_GET["id"] == "Kiss")
     $title = "Kiss";
     $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
     $youtubelinkur = "https://www.youtube.com/embed/iZq3i94mSsQ";
-    $bakgrunnur = "grar";
+    $bakgrunnur = "kiss";
 }
 if($_GET["id"] == "Milkey")
 {
