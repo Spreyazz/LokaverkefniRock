@@ -52,6 +52,10 @@ body {
   color: white;
   background-color: #0F0F40; }
 
+.skilletlitir {
+  /*background-color: rgb(82, 107, 132)*/
+  background-color: #425464; }
+
 .kisslitir {
   background-color: white;
   color: black; }
@@ -62,6 +66,13 @@ body {
 
 .svavarlitir {
   background-color: #EDB21D; }
+
+.thewho {
+  background-color: #010206;
+  /*background-color: rgb(0, 16, 43);*/ }
+
+.rhpc {
+  background-color: #cabe94; }
 
 .textiPlayfairborder {
   font-family: 'Playfair Display', serif;

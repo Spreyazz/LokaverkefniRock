@@ -58,7 +58,7 @@
      Jen Ledger, <br>
      Seth Morrison";
      $youtubelinkur = "https://www.youtube.com/embed/uGcsIdGOuZY";
-     $bakgrunnur = "grar";
+     $bakgrunnur = "skilletlitir";
 }
 if($_GET["id"] == "DeepPurple")
 {
