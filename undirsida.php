@@ -87,9 +87,16 @@ if($_GET["id"] == "JimiHendrix")
 if($_GET["id"] == "PinkFloyd")
 {
     $img = "./Myndir/Pink-Floyd.png";
-    $img2 = "";
+    $img2 = "./Myndir/pink-floyd.jpg";
     $title = "Pink Floyd";
-    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
+    $LysingAhljomsveitinni = "Pink Floyd <br>
+    Frá Vinstri: <br>
+    Richard Wright,<br>
+    David Gilmour, <br>
+    Nick Mason <br> 
+    Roger Waters. <br>
+    Á þessa mynd vantar <br>
+    Syd Barrett";
     $youtubelinkur = "https://www.youtube.com/embed/R49d4f5sEs4";
     $bakgrunnur = "panteralitir";
 }
@@ -143,10 +150,9 @@ if($_GET["id"] == "Milky")
     $img = "./Myndir/Milky.png";
     $img2 = "";
     $title = "Milkey";
-    $LysingAhljomsveitinni = "Milky Chance
-    Frá vinstri: Philipp Dausch og Clemens Rehbein";
+    $LysingAhljomsveitinni = "Milky Chance Frá vinstri: Philipp Dausch og Clemens Rehbein";
     $youtubelinkur = "https://www.youtube.com/embed/qlGQoxzdwP4";
-    $bakgrunnur = "grar";
+    $bakgrunnur = "milky";
 }
 if($_GET["id"] == "SvavarKnutur")
 {
