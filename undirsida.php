@@ -103,9 +103,15 @@ if($_GET["id"] == "PinkFloyd")
 if($_GET["id"] == "TheWho")
 {
     $img = "./Myndir/the-who.png";
-    $img2 = "";
+    $img2 = "./Myndir/Who-1975.png";
     $title = "The Who";
-    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
+    $LysingAhljomsveitinni = "The Who(1975)<br>
+    Frá vinstri:<br>
+    Roger Daltrey,<br>
+    John Entwistle,<br>
+    Keith Moon,<br>
+    Pete Townshend<br>
+    enn á þessa mynd vantar Doug Sandom og Kenney Jones";
     $youtubelinkur = "https://www.youtube.com/embed/5QaVzv5aR6U";
     $bakgrunnur = "metallicalitir";
 }
