@@ -157,7 +157,12 @@ if($_GET["id"] == "Kiss")
     $img = "./Myndir/Kiss.png";
     $img2 = "";
     $title = "Kiss";
-    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
+    $LysingAhljomsveitinni = "Kiss<br>
+    Frá vinstri:<br>
+    Gene Simmons(Chaim Witz),<br>
+    Tommy Thayer,<br>
+    Eric Singer,<br>
+    Paul Stanley";
     $youtubelinkur = "https://www.youtube.com/embed/iZq3i94mSsQ";
     $bakgrunnur = "kiss";
 }
