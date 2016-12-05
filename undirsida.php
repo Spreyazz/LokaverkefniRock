@@ -133,9 +133,13 @@ if($_GET["id"] == "ACDC")
 if($_GET["id"] == "Genesis")
 {
     $img = "./Myndir/genesis.png";
-    $img2 = "";
+    $img2 = "./Myndir/Genesis-allir.jpg";
     $title = "Genesis";
-    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
+    $LysingAhljomsveitinni = "Genesis<br>
+    Frá vinstri:<br>
+    Tony Banks,<br>
+    Phil Collins,<br>
+    Mike Rutherford";
     $youtubelinkur = "https://www.youtube.com/embed/Ccs2rt0oSzQ";
     $bakgrunnur = "genesislitir";
 }
