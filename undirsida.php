@@ -115,12 +115,18 @@ if($_GET["id"] == "TheWho")
     $youtubelinkur = "https://www.youtube.com/embed/5QaVzv5aR6U";
     $bakgrunnur = "metallicalitir";
 }
-if($_GET["id"] == "AZDC")
+if($_GET["id"] == "ACDC")
 {
-    $img = "./Myndir/azdc.png";
-    $img2 = "";
-    $title = "AZ DC";
-    $LysingAhljomsveitinni = "Afsakið en í vinnslu hverjir/hver er í þessari hljómsveit enn ætti að koma bráðum vonandi inn.";
+    $img = "./Myndir/acdc.png";
+    $img2 = "./Myndir/ACDC-2009.jpg";
+    $title = "AC DC";
+    $LysingAhljomsveitinni = "ACDC <br>
+    Frá vinstri:<br>
+    Brian Johnson,<br>
+    Malcolm Young,<br>
+    Phil Rudd,<br>
+    Angus Young,<br>
+    Cliff Williams";
     $youtubelinkur = "https://www.youtube.com/embed/v2AC41dglnM";
     $bakgrunnur = "panteralitir";
 }

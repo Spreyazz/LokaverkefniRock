@@ -57,7 +57,7 @@
             Rock
         </div>
         <div class="rammi1-2">
-        <a href="undirsida.php?id=AZDC"><img src="./Myndir/azdc.png"></a>
+        <a href="undirsida.php?id=ACDC"><img src="./Myndir/acdc.png"></a>
         </div>
         <div class="rammi1-2">
         <a href="undirsida.php?id=Genesis"><img src="./Myndir/genesis.png"></a>
